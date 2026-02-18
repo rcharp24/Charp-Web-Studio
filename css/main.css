@@ -1,0 +1,137 @@
+/* Charp Web Studio – main styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F5F5F5;
+  color: #4D4D4D;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.navbar-brand {
+  display: block;
+}
+
+.navbar-logo,
+.navbar img {
+  height: 40px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* Hamburger button – "Menu" text + icon side by side */
+.hamburger {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.hamburger:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.hamburger-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #4D4D4D;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 22px;
+}
+
+.hamburger-line {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #021F48;
+  border-radius: 1px;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+/* Hamburger open state – X shape */
+.navbar.is-open .hamburger-line:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.navbar.is-open .hamburger-line:nth-child(2) {
+  opacity: 0;
+}
+.navbar.is-open .hamburger-line:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Full-page menu overlay – covers whole screen, text centered */
+.nav-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 20px;
+  background-color: #F5F5F5;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+  z-index: 1000;
+}
+
+.navbar.is-open .nav-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Keep hamburger (and navbar) above the overlay so you can click to close */
+.navbar.is-open {
+  position: relative;
+  z-index: 1001;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #4D4D4D;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.nav-links a:hover {
+  color: #021F48;
+}
+
+.navbar-button {
+  background-color: #021F48;
+  color: #F5F5F5;
+  border: none;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
