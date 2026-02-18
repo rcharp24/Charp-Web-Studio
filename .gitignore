@@ -1,0 +1,16 @@
+# JDK / runtimes (don't commit)
+oracleJdk-25/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+*.swo
+
+# Optional: uncomment if you add build tools later
+# node_modules/
+# dist/
+# .env
