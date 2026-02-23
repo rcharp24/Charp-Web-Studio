@@ -3,46 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Charp Web Studio</title>
-  <link rel="stylesheet" href="../css/main.css">
+  <title>Home - Charp Web Studio, LLC</title>
+  <link rel="stylesheet" href="../css/HomePage.css">
+  <script src="../js/script.js"></script>
 </head>
 <body>
-  <header class="navbar">
-    <a href="HomePage.html" class="navbar-brand">
-      <img src="../images/charp-web-studio.png" alt="Charp Web Studio Logo" class="navbar-logo">
+  <header class="nav-bar">
+    <a href="HomePage.html">
+      <img src="C:\Users\robjc\OneDrive\Desktop\Charp Web Studio\images\Charp Web Studio.png" alt="Charp Web Studio Logo">
     </a>
-    <button class="navbar-button">Get a Free Quote</button>
-    
-    <button class="hamburger" type="button" aria-label="Toggle menu" aria-expanded="false">
-      <span class="hamburger-label">Menu</span>
-      <span class="hamburger-icon">
-        <span class="hamburger-line"></span>
-        <span class="hamburger-line"></span>
-        <span class="hamburger-line"></span>
-      </span>
-    </button>
-    
-    <nav class="nav-menu">
-      <ul class="nav-links">
-        <li><a href="HomePage.html">Home</a></li>
-        <li><a href="ContactPage.html">Contact</a></li>
-        <li><a href="ProjectsPage.html">Projects</a></li>
-        <li><a href="AboutPage.html">About</a></li>
-      </ul>
+    <nav class="cta">
+      <button onclick="onQuoteClick()">Get a Free Quote</button>
     </nav>
-    
+    <nav class="nav-menu">
+      <button onclick="onAboutClick()">About</button>
+      <button onclick="onHomeClick()">Home</button>
+      <button onclick="onProjectsClick()">Projects</button>
+      <button onclick="onServicesClick()">Services</button>
+    </nav>
   </header>
-  <h1>Hello, World!</h1>
-  <p>This is a paragraph</p>
-  <a href="https://www.google.com">Google</a>
-  
-  
-  <input type="text" placeholder="Enter your name">
-  <input type="password" placeholder="Enter your password">
-  <input type="email" placeholder="Enter your email">
-  <input type="number" placeholder="Enter your number">
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="../js/main.js"></script>
+    <h1>Charp Web Studio, LLC</h1>
+    <h2>A Website Design and Development Company</h2>
+    <p>Servicing small, local businesses of the Lafayette area</p>
+  <footer>
+    <p>985-601-7007</p>
+    <p>charpwebstudio@gmail.com</p>
+  </footer>
 </body>
+
 </html>
