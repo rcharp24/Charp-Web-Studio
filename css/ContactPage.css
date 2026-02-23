@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4D4D4D;
+    size: auto;
+    
+}
+
+.nav-bar img {
+    height: 50px;
+    width: auto;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+
+button {
+    background-color: #021F48;
+    color: white;
+    margin-right: 10px;
+    border-radius: 6px;
+}
