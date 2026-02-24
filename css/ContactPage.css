@@ -26,3 +26,8 @@ button {
     margin-right: 10px;
     border-radius: 6px;
 }
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: red;
+}
