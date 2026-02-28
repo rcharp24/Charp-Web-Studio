@@ -9,7 +9,7 @@
 </head>
 <body>
   <header class="nav-bar">
-    <a href="HomePage.html">
+    <a href="index.html" class="logo">
       <img src="../images/Charp Web Studio.png" alt="Charp Web Studio Logo">
     </a>
     <nav class="nav-menu">
@@ -18,34 +18,48 @@
       <button onclick="onServicesClick()">Services</button>
     </nav>
   </header>
-  <main>
-    <h1>Charp Web Studio, LLC</h1>
+  <section class="hero">
+    <h1 class="type">Charp Web Studio, LLC</h1>
     <h2>A Website Design and Development Company</h2>
     <p>Servicing small, local businesses of the South Louisiana area</p>
-  </main>
-  <h3>Services</h3>
-  <div class="services">
-      <h4>Web Design</h4>
-    
-      <h4>Web Development</h4>
-    
-      <h4>SEO Optimization</h4>
-
-      <h4>Web Hosting (Coming Soon)</h4>
-  </div>
+  </section>
+  <section class="services"></section>
+    <h2>Services</h2>  
+      <div class="service grid">
+        <div class="service-card">
+          <img src="../images/web-design.png" alt="Web Design Icon">
+        <p>Web Design</p>
+        </div>
+        <div class="service-card">
+          <img src="../images/web-development.png" alt="Web Development Icon">
+        <p>Web Development</p>
+        </div>
+        <div class="service-card">
+            <img src="../images/seo.png" alt="SEO Optimization Icon">
+          <p>SEO Optimization</p>
+        </div>
+        <div class="service-card">
+            <img src="../images/web-hosting.png" alt="Web Hosting Icon">
+          <p>Web Hosting (Coming Soon)</p>
+        </div>
+        
+      </div>
+  </section>
+  
   <h3>Projects</h3>
-    <div class="projects">
+    <section class="section projects">
       <p>Charp Web Studio has successfully completed numerous projects for small businesses in the South Louisiana area, delivering high-quality websites that meet their unique needs and goals.</p>
-    </div> 
+    </section> 
   <h3>Why Choose Charp Web Studio</h3>
-    <div class="choose-us">
+    <section class=" section choose-us">
       <p>Charp Web Studio is dedicated to providing exceptional web design and development services to small businesses in the South Louisiana area. Running a new company and wearing multiple hats can be challenging, so let us handle your website needs and you can focus on growing your business.</p>
-    </div>
-  <nav class="cta">
+    </section>
+  
+  <footer>
+    <nav class="cta">
     <h3>Ready to Get Started?</h3>
       <button onclick="onQuoteClick()">Get a Free Quote</button>
     </nav>
-  <footer>
     <a href="tel:985-601-7007">985-601-7007</a>
     <a href="mailto:charpwebstudio@gmail.com">charpwebstudio@gmail.com</a>
   </footer>

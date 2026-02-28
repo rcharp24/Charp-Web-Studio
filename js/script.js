@@ -2,7 +2,7 @@ function onAboutClick() {
     window.location.href="../pages/AboutPage.html"
 }
 function onHomeClick() {
-    window.location.href="../pages/HomePage.html"
+    window.location.href="../index.html"
 }
 function onServicesClick() {
     window.location.href="../pages/ServicesPage.html"
