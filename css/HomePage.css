@@ -86,6 +86,29 @@ h2, h3{
   padding: 80px 20px;
   font-size: 20px;
   font-weight: 700;
+  border-bottom: 10px solid #021F48;
+  
+}
+
+.service-card.coming-soon {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.services-grid {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  border-bottom: 10px solid #021F48;
+}
+
+.section-projects {
+  border-bottom: 10px solid #021F48;
+}
+
+.section-choose-us {
+  border-bottom: 10px solid #021F48;
 }
 footer {
   padding: 40px 20px;
