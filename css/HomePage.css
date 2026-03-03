@@ -28,7 +28,7 @@ body {
 }
 
 
-button {
+.nav-button {
   background-color: var(--primary);
   color: white;
   padding: 10px 16px;
@@ -87,6 +87,18 @@ h2, h3{
   font-size: 20px;
   font-weight: 700;
   border-bottom: 10px solid #021F48;
+  
+}
+
+.service-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  transition: all 0.2s ease;
+  margin: 10px;
+  align-content: center;
   
 }
 
