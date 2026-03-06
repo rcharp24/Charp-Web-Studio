@@ -1,0 +1,39 @@
+:root {
+  --primary: #1E8091;
+  --text: #343B42;
+  --bg: #E2F1F3;
+}
+body {
+  margin: 0;
+  color: var(--text);
+  background-color: var(--bg);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4D4D4D;
+    
+}
+
+.nav-bar img {
+    height: 50px;
+    width: auto;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+
+.nav-button {
+  background-color: var(--primary);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: all 0.2s ease;
+}
