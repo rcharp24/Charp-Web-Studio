@@ -29,6 +29,21 @@ body {
 
 
 .nav-button {
+  background-color: transparent;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: all 0.2s ease;
+}
+
+.nav-button:hover {
+  background-color: var(--primary);
+}
+
+.cta {
   background-color: var(--primary);
   color: white;
   padding: 10px 16px;
@@ -47,14 +62,14 @@ body {
     overflow: hidden;
     border-right: 3px solid currentColor;
     color: var(--text);
-    width: 22ch; /* adjust to match your text length */
+    width: 44ch; /* adjust to match your text length */
     max-width: fit-content;
-    animation: typing 6s steps(14) infinite, blink 0.6s infinite;
+    animation: typing 9s steps(44) infinite, blink 0.6s infinite;
 }
 
 @keyframes typing {
     from { width: 0 }
-    to { width: 22ch }
+    to { width: 44ch }
 }
 
 @keyframes blink {
@@ -108,8 +123,20 @@ h2, h3{
   border-bottom: 10px solid #021F48;
 }
 
-.section-projects {
-  border-bottom: 10px solid #021F48;
+.project-card{
+background:#f5f5f5;
+padding:20px;
+border-radius:8px;
+text-align:center;
+width:280px;
+}
+
+.section-projects{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+padding:60px 20px;
 }
 
 .section-choose-us {
