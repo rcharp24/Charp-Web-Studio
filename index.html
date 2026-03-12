@@ -6,6 +6,7 @@
   <meta name="description" content="Charp Web Studio provides professional web design, development, and SEO services for small businesses in South Louisiana.">
   <title>Home - Charp Web Studio, LLC</title>
   <link rel="stylesheet" href="../css/HomePage.css">
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/bundled/lenis.min.js"></script>
   <script src="../js/script.js"></script>
 </head>
 <body>
@@ -21,12 +22,12 @@
     </nav>
   </header>
   <main>
-    <section class="hero">
+    <section class="hero panel1 fade-section">
       <h1 class="type">A Website Design and Development Company</h1>
       <h2>Servicing small, local businesses of the South Louisiana area</h2>
       
     </section>
-    <section class="services">
+    <section class="services panel2 fade-section">
       <h3>Services</h3>  
 
         <div class="services-grid">
@@ -52,9 +53,12 @@
 
         </div>
     </section>
-    <h2>Projects</h2>
-    <p>Charp Web Studio has successfully completed numerous projects for small businesses in the South Louisiana area, delivering high-quality websites that meet their unique needs and goals.</p>
-    <section class="section-projects">
+    
+    <section class="section-projects panel3 fade-section">
+      
+      <h2>Projects</h2>
+      <p>Charp Web Studio has successfully completed numerous projects for small businesses in the South Louisiana area, delivering high-quality websites that meet their unique needs and goals.</p>
+      
       <div class="project-card">
         <h3>La Louisiane Title Company</h3>
         <a href="https://www.latitleco.com" target="_blank">Visit Website</a>
@@ -71,11 +75,11 @@
       </div>
 
       <div class="project-card">
-        <h3>C & C Smocking Co. (Coming Soon)</h3>
+        <h3>C & C Smocking Co. <br>(Coming Soon)</h3>
         <a href="#" target="_blank">Coming Soon!</a>
       </div>
     </section>
-    <section class=" section-choose-us">
+    <section class="section-choose-us panel4 fade-section">
         <h2>Why Choose Charp Web Studio</h2>
         <ul>
           <li>Personalized attention to your business needs</li>
@@ -85,9 +89,9 @@
     </section>
     
     <footer>
-      <nav class="cta">
-      <h2>Ready to Get Started?</h2>
-        <button onclick="onQuoteClick()">Get a Free Quote</button>
+      <nav>
+        <h2>Ready to Get Started?</h2>
+        <button onclick="onQuoteClick()" class="cta">Get a Free Quote</button>
       </nav>
       <a href="tel:985-601-7007">985-601-7007</a>
       <a href="mailto:charpwebstudio@gmail.com">charpwebstudio@gmail.com</a>
