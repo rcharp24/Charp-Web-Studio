@@ -66,12 +66,12 @@ main {
 }
 
 footer{
-margin-top:80px;
-background:#4D4D4D;
-color:white;
-display:flex;
-flex-direction:column;
-align-items:center;
-gap:15px;
-padding:40px;
+    margin-top:80px;
+    background:#4D4D4D;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    padding:40px;
 }

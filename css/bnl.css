@@ -1,7 +1,8 @@
 :root {
-  --primary: #1E8091;
-  --text: #343B42;
-  --bg: #E2F1F3;
+  --primary: #021F48;
+  --dark: #000000;
+  --text: #4D4D4D;
+  --bg: #ffffff;
 }
 body {
   margin: 0;
@@ -28,7 +29,6 @@ body {
     animation: anime 0.5s ease forwards;
     z-index: 9999;
 }
-
 .nav-bar img {
     height: 50px;
     width: auto;
@@ -38,7 +38,7 @@ body {
 
 
 .nav-button {
-  background-color: transparent;
+  background-color: var(--primary);
   color: white;
   padding: 10px 16px;
   border-radius: 30px;
@@ -48,23 +48,13 @@ body {
   transition: all 0.2s ease;
 }
 
-.nav-button:hover {
-  background-color: var(--primary);
-  color: white;
-}
-
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    margin-top: 150px;
+    padding: 20px;
 }
-
-.h1, .h2, .h3 {
-    color: #DCC67F;
-}
-
 footer{
 margin-top:80px;
 background:#4D4D4D;
